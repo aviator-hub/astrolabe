@@ -46,9 +46,8 @@
 
 
   <modules>
-    <module>astrolabe-table</module>
     <module>astrolabe-service</module>
-    <module>astrolabe-common</module>
+    <module>astrolabe-model</module>
   </modules>
 
   <properties>

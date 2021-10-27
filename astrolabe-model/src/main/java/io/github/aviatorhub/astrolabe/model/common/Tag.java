@@ -1,5 +1,4 @@
-package io.github.aviatorhub.astrolabe.common;
-
+package io.github.aviatorhub.astrolabe.model.common;
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -9,6 +8,7 @@ import lombok.Setter;
 @Setter
 @NoArgsConstructor
 public class Tag {
-  private String identify;
+
+  private String name;
   private String description;
 }
