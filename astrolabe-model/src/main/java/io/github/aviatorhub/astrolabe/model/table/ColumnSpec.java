@@ -9,7 +9,7 @@ import lombok.Setter;
 @Getter
 @Setter
 @NoArgsConstructor
-public abstract class Column implements Serializable {
+public abstract class ColumnSpec implements Serializable {
 
   private String name;
   private DataType type;

@@ -7,12 +7,18 @@ import lombok.Setter;
 @Getter
 @Setter
 @NoArgsConstructor
-public class DataSource {
+public abstract class DataSourceSpec {
 
+  // 数据源标志符
   private String identify;
+  // 数据库连接信息
   private String address;
+  private String database;
   private String user;
   private String passwd;
-  private Integer coreConn;
-  private Integer maxConn;
+  // 连接池配置
+  private Integer maxPoolSize;
+
+  abstract String jdbcUrl();
+  abstract String driver();
 }

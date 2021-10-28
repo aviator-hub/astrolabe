@@ -46,8 +46,10 @@
 
 
   <modules>
-    <module>astrolabe-service</module>
     <module>astrolabe-model</module>
+    <module>astrolabe-core</module>
+    <module>astrolabe-service</module>
+    <module>astrolabe-provider</module>
   </modules>
 
   <properties>
@@ -63,8 +65,10 @@
     <spotbugs.version>4.4.1</spotbugs.version>
 
     <!-- declare test dependencies version-->
-    <junit.version>5.8.1</junit.version>
     <lombok.version>1.18.20</lombok.version>
+    <cglib.version>3.3.0</cglib.version>
+
+    <junit.version>5.8.1</junit.version>
     <testcontainers.version>1.16.2</testcontainers.version>
   </properties>
 

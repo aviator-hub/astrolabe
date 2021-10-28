@@ -7,10 +7,10 @@ import lombok.Setter;
 @Getter
 @Setter
 @NoArgsConstructor
-public class Node {
+public class NodeSpec {
 
   private String name;
   private String address;
-  private Role role;
+  private RoleSpec roleSpec;
 
 }

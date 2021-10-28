@@ -9,12 +9,12 @@ import lombok.Setter;
 @Getter
 @Setter
 @NoArgsConstructor
-public class Table {
+public class TableSpec {
 
   private String database;
   private String name;
   private String comment;
   private TableType type;
   private Integer version;
-  private List<Column> columnList;
+  private List<ColumnSpec> columnSpecList;
 }

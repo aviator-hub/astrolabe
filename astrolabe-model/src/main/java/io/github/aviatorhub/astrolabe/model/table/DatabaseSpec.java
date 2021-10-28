@@ -6,9 +6,9 @@ import lombok.Setter;
 
 @Getter
 @Setter
-public class Database {
+public class DatabaseSpec {
 
   private String name;
   private String comment;
-  private List<Table> tableList;
+  private List<TableSpec> tableSpecList;
 }
